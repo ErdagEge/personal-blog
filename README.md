@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Personal Blog
 
-## Getting Started
+Welcome to the home of my writing on engineering, design, and the human side of building software. This site is a deliberately minimalist reading experience—no pop-ups, no distractions—just thoughtful articles presented with plenty of breathing room.
 
-First, run the development server:
+## What you'll find
+- **Deep-dive essays** that document the lessons I learn while shipping real products.
+- **Short riffs** on ideas that are still forming—half-baked thoughts I may revisit later.
+- **Curated links** highlighting tools, talks, and books that have shaped how I work.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Each post includes context, publication dates, and related reading so you can trace a topic as it evolves over time.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Reading experience
+- **Typography built for longform**: generous line height, responsive spacing, and dark-mode friendly colors.
+- **Fast navigation**: server-rendered routes mean the homepage and post pages are ready almost instantly.
+- **Accessible by design**: semantic HTML, focus states, and keyboard-friendly navigation make the site usable for everyone.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Design principles
+1. **Clarity over flash** – visual flourishes only appear when they support the story.
+2. **Consistency** – shared layouts keep you oriented from the archive to individual posts.
+3. **Focus on the words** – the content drives the layout, not the other way around.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Behind the scenes
+- Built with the latest Next.js App Router and React Server Components for speed.
+- Prisma and SQLite power the content layer, keeping drafts and published posts in sync.
+- Tailwind CSS handles styling with a lean, utility-first approach.
 
-## Learn More
+## Writing workflow
+1. Draft in my notes app of choice.
+2. Polish copy, imagery, and metadata directly in Prisma Studio.
+3. Publish with a single commit—no complex build steps required.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Thanks for reading
+I’m always exploring new ideas, tools, and ways of working. If an article resonates, feel free to reach out or share it with someone who might enjoy the read.
